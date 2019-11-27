@@ -37,7 +37,7 @@ The Google Shopping ads Channel extension installs and adds Google Shopping feat
 
 ## Install the extension
 
-Google Shopping ads Channel install is a `.zip` file available from the Magento Marketplace. It includes a composer.json which provides the name `magento/google-shopping-ads` and the available version.
+When installing the extension, use the name `magento/google-shopping-ads` for composer installation: `composer require magento/google-shopping-ads`.
 
 1. Follow all instructions for [General CLI installation]({{site.baseurl}}/extensions/install/).
 
@@ -57,19 +57,5 @@ If an update for Google Shopping ads Channel is available, a message displays wh
 ![Update available](images/update.png)
 
 1. Click **Update**.
-
-1. Log into your Magento web account](https://account.magento.com/applications/customer/login/).
-
-1. Click the **Marketplace** tab.
-
-1. In _My Products_, click **My Purchases**.
-
-1. Locate and select **Google Shopping ads Channel**.
-
-1. For **Choose version**, select the version to which you want to update.
-
-1. For the component name and version, click **Technical Details**.
-
-1. Click **Download**.
 
 1. Follow the instructions to [Upgrade an extension]({{site.baseurl}}/extensions/install/#upgrade-an-extension).

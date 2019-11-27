@@ -11,7 +11,7 @@ The Amazon Sales Channel extension installs and adds features to integrate your 
 
 -  **Magento Web Account**: You should have a Magento web account, which is used to create and track an API key.
 
--  **API Key**: Get a Amazon Sales Channel API key through your Magento web account. The following instructions include these steps.
+-  **API Key**: Get an Amazon Sales Channel API key through your Magento web account. The following instructions include these steps.
 
 ## Get the Amazon Sales Channel extension
 
@@ -29,9 +29,9 @@ The Amazon Sales Channel extension installs and adds features to integrate your 
 
 ## Install the extension
 
-Amazon Sales Channel install is a `.zip` file available from the Magento Marketplace. It includes a composer.json which provides the name `magento/amazon-sales-channel` and the available version.
+When installing the extension, use the name `magento/amazon-sales-channel` for composer installation: `composer require magento/amazon-sales-channel`.
 
-1. Follow all instructions for [Extension Installation]({{ site.baseurl }}/extensions/install/).
+1. Follow the instructions for [General CLI Installation]({{ site.baseurl }}/extensions/install/).
 
 {:.bs-callout .bs-callout-info}
 After installation, you must add the Amazon API Key.
@@ -48,7 +48,7 @@ You have the following options for configuring Amazon Sales Channel. You do not 
 
 1. Log into the Magento Admin.
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings*_ > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. Click **Sales Channels**, then **Global Settings**.
 
@@ -61,19 +61,5 @@ You have the following options for configuring Amazon Sales Channel. You do not 
 1. Click **Save Config**.
 
 ## Update the Amazon Sales Channel version
-
-1. Log in to your [Magento Web Account](https://account.magento.com/applications/customer/login/).
-
-1. Click the **Marketplace** tab.
-
-1. In _My Products_, click **My Purchases**.
-
-1. Locate and select **Amazon Sales Channel**.
-
-1. For **Choose version**, select the version to which you want to update.
-
-1. For the component name and version, click **Technical Details**.
-
-1. Click **Download**.
 
 1. Follow the instructions to [upgrade an extension]({{site.baseurl}}/extensions/install/#upgrade-an-extension).
